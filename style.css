@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #FBFBFB;
+  color: #373737;
+  margin: 0;
+  font-family: 'Piazzolla', serif;
+}
+
+#header {
+  background-color: #4D2627;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: #FBFBFB;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #C8A69D;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#footer {
+  background-color: #373737;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer h4 {
+  color: #FBFBFB;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: #FBFBFB;
+}
+
+a {
+  color: #CEAFB3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #35191A;
+}
+
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #C4C4C4;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4 {
+  color: #00000;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.about {
+  text-align: center;
+}
+
+.post-author img, .about-author img {
+  border-radius: 50%;
+}
+
+.post-container:nth-child(even) {
+  background-color: #C4C4C4;
+}
